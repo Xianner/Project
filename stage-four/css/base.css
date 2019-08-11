@@ -1,0 +1,585 @@
+*{
+    margin: 0px;;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.head{width: 100%;background-color: #F8F8F8}
+#navigation{
+    width: 90%;
+    margin: 0px auto;
+    border: none;
+}
+#navigation img{
+    width: 200px;
+    height: 60px;
+}
+#navigation nav ul li a{
+    height: 60px;
+    line-height: 30px;
+}
+.head nav{
+    padding: 0px;
+    background-color:#F8F8F8 ;
+}
+#navbar-list,#navbar-list ul{
+    background-color:#F8F8F8 ;
+}
+.jum1{
+    background-image: url("../img/mian1_bg.jpg");
+}
+.jum1,.protect_jum1,.about_jum1,.contact_jum1{
+    background-attachment: fixed;
+    background-size: 100% 600px;
+    height: 350px;
+    text-align: center;
+    color: #ffffff;
+}
+.jum2,.main5,.main6,.protect_main3{
+    padding: 0px;
+    margin:0px auto ;
+    background-color: #ffffff;
+}
+
+/*轮播图*/
+.main2_box{
+    height: 250px;
+    position: relative;
+}
+#lb{
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+}
+#lb img{
+    width: 100%;
+    height: auto;
+    transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -khtml-transition: all 2s ease;
+}
+#lb .lb_list:hover img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -khtml-transform: scale(1.5);
+}
+.lb_box{
+    width: 1710px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+.lb_img_box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.xian{
+    width: 100%;
+    height: 175px;
+    position: absolute;
+    top:0px;
+    left: 0%;
+    border: 2px solid  #465E3E;
+    opacity: 0;
+    transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -khtml-transition: all 2s ease;
+}
+.lb_list{
+    width: 264px;
+    margin: 0px 10px;
+    float: left;
+    overflow: hidden;
+}
+#lb .alt{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid green;
+    transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -khtml-transition: all 2s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.jum3{
+    margin:0px auto ;
+    background-color: #ffffff;
+    padding-top: 0px;
+}
+
+.jum2 p{
+    text-align: right;
+    font-size: 14px;
+    height: 76px;
+    margin-bottom: 0px;
+}
+.jum2 p a{
+    display: block;
+    height: 76px;
+    line-height: 76px;
+    color: darkgreen;
+    text-decoration: none;
+}
+.jum2 span {
+    font-size: 14px;
+}
+.jum2-title-right img{
+    width: 20px;
+    height: 7.4px;
+}
+.main2_box{
+    position: relative;
+}
+.main2_box .button{
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    width: 27px;
+    height: 48px;
+    line-height: 48px;
+    background-color: rgba(96,117,48,.9)!important;
+    position: absolute;
+}
+.button-prev{
+    left: -2%;
+    top:40%;
+}
+.button-next{
+    right: -2%;
+    top:40%;
+}
+.jum3_content{
+    position: relative;
+    margin-top: 20px;
+}
+.jum3_content i{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    margin: 0px 15px;
+    width: 98%;
+    height: 2px;
+    background-color: #cbcbcb;
+}
+.jum3_content a{
+    font-size: 18px;
+    color: rgba(31,37,38,0.75);
+    text-decoration: none;
+}
+.jum3_content a:hover{
+    font-weight: 600;
+}
+.jum3_content p{
+    padding-top: 10px;
+   color: rgba(31,37,38,0.75);
+    font-size: 14px;
+}
+.jum3_content_right{
+    text-align: center;
+}
+.jum3_content_right img{
+    width: 50%;
+}
+.jum3_content_right img:hover {
+    opacity: 0.9;
+}
+.jum4{
+    background: url("../img/main4_bg.jpg")no-repeat ;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+    height: 150px;
+    text-align: left;
+    color: #ffffff;
+    margin: 40px 0px 20px 0px;
+}
+#jum4{
+}
+.jum4 img{
+    margin-left: 10%;
+}
+.main5>div{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.main5>div i{
+    position: absolute;
+    width: 96%;
+    margin:0px  2%;
+    height: 40%;
+    left: 0px;
+    top:20%;
+    padding: 0px;
+    background-color: rgba(200,200,200,0.4);
+}
+.main5>div img{
+    width: 100%;
+    height: 160px;
+    z-index: 5;
+    position:relative ;
+}
+.main5>div img:hover{
+    opacity: 0.8;
+}
+.main5>div p{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+}
+.main6>div{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+ .main6>div img{
+    width: 100%;
+    height: 100%;
+}
+.main6{
+    margin-bottom: 30px;
+}
+.main6>div img:hover{
+    opacity: 0.9;
+}
+ .main6_img_box{
+     position: relative;
+ }
+.main6>div p{
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    margin: 0px auto;
+    position: absolute;
+    padding: 5% 0px;
+    font-size: 18px;
+    bottom: 0px;
+    background-color: rgba(16,86,57,0.9);
+}
+.footer{
+    background-color: #465E3E;
+    text-align: center;
+    margin: 0px;
+}
+.footer .row{
+    margin: 0px;
+}
+.footer_logo{
+    padding: 0px;
+    width: 100%;
+}
+.footer_logo img{
+    width: 150px;
+    height: 50px;
+}
+.footer p{
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer_list{
+    overflow: hidden;
+}
+.footer_list p{
+   float: left;
+    width: 20%;
+}
+.footer_img img{
+    margin:10px;
+}
+/*第二页protect*/
+.protect_jum1{
+    background-image: url("../img/main4_bg.jpg");
+    position: relative;
+}
+.protect_jum1_title,.about_jum1_title{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.protect_jum1_title h2{
+    font-weight: 600;
+}
+.protect_main2{
+    text-align: center;
+}
+.protect_main2 p{
+   font-size: 14px;
+    color: rgba(31,37,38,0.75);
+    line-height: 30px;
+}
+.protect_main2 h3{
+    font-weight: 600;
+    color:rgba(16,86,57,0.9);
+}
+.protect .main5>div p{
+    height: 30px;
+    line-height: 30px;
+}
+.protect .main5>div .alt2{
+    font-size: 14px;
+}
+/*第三页 关于我们 about*/
+.about_jum1{
+    background-image: url("../img/about_main1_bg.jpg");
+    position: relative;
+}
+.about .jum3_content i {
+    height: 8px;
+    background-color: rgba(200,200,200,0.2);
+    top:24%;
+}
+.about .jum3_content{
+    color:rgba(31,37,38,0.75) ;
+}
+.about .jum3_content h3{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.about .footer{
+    margin-top: 30px;
+}
+/*联系我们*/
+.contact_jum1{
+    background-image: url("../img/contact_bg.jpg");
+    position: relative;
+}
+.protect_main2_list{
+    overflow: hidden;
+}
+.protect_main2_list p{
+    float: left;
+    width: 25%;
+}
+.protect_main3{
+    margin-bottom: 20px;
+}
+.form p:nth-child(1){
+    margin-top: 10px;
+}
+.form p{
+
+    margin: 20px 0px;
+}
+.protect_main3_button{
+    background-color:#465E3E;
+    color: #ffffff;
+}
+.protect_main3 .map iframe{
+    width:700px;
+    height:300px;
+}
+.map{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 10px auto;
+}
+@media  all and (max-width:1300px){
+    .main2_box{
+        height: 215px;
+        width: 980px;
+    }
+    #lb{
+        height: 215px;
+    }
+    .lb_box{
+        width: 1410px;
+        position: absolute;
+    }
+    .lb_list{
+        width: 215px;
+        margin: 0px 10px;
+    }
+    .xian{
+        height:140px ;
+    }
+}
+@media  all and (max-width:1100px) {
+    .button-prev {
+        display: none;
+    }
+
+    .button-next {
+        display: none;
+    }
+
+    .main2_box {
+        width: 100%;
+        height: 230px;
+    }
+
+    #lb {
+        width: 100%;
+        height: 230px;
+    }
+
+    .lb_box {
+        width: 100%;
+    }
+
+    .lb_list {
+        width: 23%;
+        margin: 0px 1%;
+    }
+
+    .lb_box > div:nth-child(5) {
+        display: none;
+    }
+
+    .lb_box > div:nth-child(6) {
+        display: none;
+    }
+
+    .xian {
+        height: 154px;
+    }
+
+    .jum4 {
+        background-size: 100% 1400px;
+    }
+}
+@media  all and (max-width:1000px){
+    .xian{
+        height:136px ;
+    }
+}
+@media  all and (max-width:992px){
+    .jumbotron .jum1{
+        background-size: 1000px;
+    }
+    .footer_list p{
+        width: 50%;
+    }
+    .xian{
+        height:126px ;
+    }
+}
+@media  all and (max-width:850px){
+    .xian{
+        height:116px ;
+    }
+}
+@media  all and (max-width:800px){
+    .xian{
+        height:100px ;
+    }
+    .jum3_content i{
+        width: 96%;
+    }
+}
+@media  all and (max-width:768px){
+    .jum4{
+        background-size: 100% 800px;
+    }
+    .footer_list p{
+        width: 100%;
+    }
+    .protect_main2_list p{
+        float: left;
+        width: 50%;
+    }
+    .map{
+        width:500px;
+        height:300px;
+        margin: 0px auto;
+    }
+    .xian{
+        height:106px ;
+    }
+    .nav>li {
+        text-align: center;
+    }
+    #navbar-list, #navbar-list ul {
+        width: 100%;
+    }
+
+    element.style {
+        width: 360px;
+    }
+}
+@media  all and (max-width:680px){
+    .map{
+        width:400px;
+        height:300px;
+        margin: 0px auto;
+    }
+    .main2_box {
+        height:270px ;
+    }
+    .lb_list{
+        width: 48%;
+        margin: 0px 1%;
+    }
+    #lb{
+        height:270px ;
+    }
+    .lb_box>div:nth-child(3){
+        display: none;
+    }
+    .lb_box>div:nth-child(4){
+        display: none;
+    }
+    .xian{
+        height:200px ;
+    }
+    }
+@media  all and (max-width:640px){
+    .xian{
+        height:190px ;
+    }
+}
+@media  all and (max-width:640px){
+    .xian{
+        height:180px ;
+    }
+}
+@media  all and (max-width:590px){
+    .main2_box {
+        height:240px ;
+    }
+    #lb{
+        height:240px ;
+    }
+    .xian{
+        height:170px ;
+    }
+}
+@media  all and (max-width:550px){
+    .xian{
+        height:156px ;
+    }
+}
+@media  all and (max-width:500px){
+    .xian{
+        height:140px ;
+    }
+}
+@media  all and (max-width:430px){
+    .about .jum3_content h3 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .jum3_content_right img {
+        width: 100%;
+    }
+}
